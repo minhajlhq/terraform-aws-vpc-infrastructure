@@ -1,0 +1,17 @@
+vpc_cidr = "10.0.0.0/16"
+
+public_subnet_cidrs = [
+  "10.0.1.0/24",
+  "10.0.2.0/24"
+]
+
+private_subnet_cidrs = [
+  "10.0.101.0/24",
+  "10.0.102.0/24"
+]
+
+azs = ["us-east-1a", "us-east-1b"]
+
+ami_id = "ami-xxxxxxxxxxxxxxxxx"        # Replace with a valid AMI ID for your region
+key_name = "your-keypair-name"          # Replace with your AWS EC2 Key Pair name
+my_ip    = "YOUR.PUBLIC.IP.ADDRESS/32"  # Use your IP, e.g., 172.59.77.32/32
